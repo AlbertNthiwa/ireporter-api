@@ -33,7 +33,7 @@ li {
     text-decoration: none;
 }
 li a:hover {
-    background-color:lightcoral;
+    color:lightcoral;
 }
 #home{
     float: left;
