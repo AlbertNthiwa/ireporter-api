@@ -1,0 +1,42 @@
+h1{
+    font-size: 50px;
+    font-weight: 500;
+}
+body{
+    width:100%; 
+    text-align:center;
+    margin: 20px 0px 20px 0px;
+    background-image: url(../img/alarm.jpg);
+    background-size: cover;   
+}
+.box{
+    background:white;
+    width:300px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    padding:10px 10px 10px 10px;
+    border: black 3px solid; 
+}
+input{
+    background:#ecf0f1;
+    border: #ccc 1px solid;
+    padding: 8px;
+    width:250px;
+    color:#AAAAAA;
+    margin-top:10px;
+    font-size:1em;
+    border-radius:5px;
+}
+.btn{
+    background:#2ecc71;
+    width:150px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    border-radius:5px;
+    border: #27ae60 1px solid;
+    margin-top:50px;
+    margin-bottom:50px;
+    font-weight:800;
+    font-size:0.8em;
+}
