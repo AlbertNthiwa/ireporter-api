@@ -6,16 +6,30 @@ body{
     width:100%; 
     text-align:center;
     margin: 20px 0px 20px 0px;
-    background-image: url(../img/alarm.jpg);
+    background-image: url(../img/home.jpg);
     background-size: cover;   
 }
-.box{
+.sign-in{
     background:white;
     width:300px;
     border-radius:6px;
-    margin: 0 auto 0 auto;
+    margin-top:50px;
+    margin-right:75px;
     padding:10px 10px 10px 10px;
-    border: black 3px solid; 
+    border: black 3px solid;
+    float: right;
+    color:lightcoral;
+}
+.login{
+    background:white;
+    width:300px;
+    border-radius:6px;
+    margin-top:20px;
+    margin-right:75px;
+    padding:10px 10px 10px 10px;
+    border: black 3px solid;
+    float: right;
+    color:lightcoral;
 }
 input{
     background:#ecf0f1;
@@ -28,15 +42,90 @@ input{
     border-radius:5px;
 }
 .btn{
-    background:#2ecc71;
+    border-radius: 25px;
+    background:#2ecc71;;
     width:150px;
     padding-top:10px;
     padding-bottom:10px;
     color:white;
-    border-radius:5px;
-    border: #27ae60 1px solid;
-    margin-top:50px;
-    margin-bottom:50px;
+    margin-top:10px;
+    margin-bottom:10px;
     font-weight:800;
     font-size:0.8em;
 }
+
+ /* Homepage styling*/ 
+.button{
+    border-radius: 25px;
+    background:blue;
+    width:150px;
+    padding-top:10px;
+    padding-bottom:10px;
+    color:white;
+    margin-top:10px;
+    margin-bottom:10px;
+    font-weight:800;
+    font-size:0.8em;
+}
+.nav-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:black;
+}
+li {
+    float: right;
+}
+.nav-bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    color:lightcoral;
+}
+#home{
+    float: left;
+}
+body{
+    color: white;
+    width:100%; 
+    text-align:center;
+    margin: 20px 0px 20px 0px;
+    background-image: url(../img/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+.content{
+    width:300px;
+    border-radius:6px;
+    margin: 0 auto 0 auto;
+    padding:10px 10px 10px 10px;
+    float: right;
+}
+.content h2{
+    color: lightcoral;
+}
+.values h3{
+    color: lightcoral;
+}
+.about{
+    text-align:center;
+}
+footer{
+    color:lightcoral;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
