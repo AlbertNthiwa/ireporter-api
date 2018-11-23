@@ -2,6 +2,12 @@ h1{
     font-size: 50px;
     font-weight: 500;
 }
+#login-page{
+    background-image: url(../img/dashboard.jpg);
+}
+#registration-page{
+    background-image: url(../img/dashboard.jpg);
+}
 .sign-in input{
     padding:15px 15px 15px 15px;
     margin: 15px 15px 15px 15px;
@@ -48,7 +54,7 @@ input{
 }
 .btn{
     border-radius: 25px;
-    background:#2ecc71;;
+    background:#2ecc71;
     width:150px;
     padding-top:15px;
     padding-bottom:15px;
@@ -63,7 +69,7 @@ input{
  /* Homepage */ 
 
  #homepage{
-    background-image: url(..//img/home.jpg);
+    background-image: url(../img/home.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
@@ -97,7 +103,7 @@ input{
     float: left;
     margin-left:15px;
 }
-ul {
+.nav-bar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -155,7 +161,91 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-  }
-  #danger:hover {
+}
+#danger:hover {
     color:red;
-  }
+}
+
+  /* User Profile */
+#logoutbtn{
+    border-radius: 25px;
+    background:red;
+    width:100px;
+    padding-top:5px;
+    padding-bottom:5px;
+    color:white;
+    margin-top:10px;
+    font-weight:800;
+    font-size:0.8em;
+    text-transform: uppercase;
+}
+.avatar {
+    border-radius: 100%;
+    display: inline-block;
+    margin-top: 70px;
+    margin-left: 0px;
+    margin-right: 800px;
+    padding: 0.5em;
+    border: solid 2px red;
+    background-color: black;
+}
+.avatar img {
+      border-radius: 100%;
+      display: block;
+      width: 10em;
+}
+#profile-page{
+    background-image: url(../img/dashboard.jpg);
+}
+
+
+
+.name {
+	font-size: 15px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+.username {
+	font-size: 11px;
+	line-height: 15px;
+}
+.actions {
+	margin-top: 33px;
+}	
+.stats {
+    float: left;
+}
+	
+.box {
+	width: 100px;
+    border: solid 3px red;
+    border-radius:6px;
+	text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 50px;
+}
+span {
+	display: block;
+}
+.value {
+	font-size: 18px;
+	font-weight: 600;
+}
+.parameter {
+	font-size: 11px;
+	}
+.btn2 {
+    display: block;
+    width: 120px;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    background: none;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 12px;
+    font-weight: 600;
+    box-sizing: border-box;
+    transition: all .3s ease-in-out;
+    color: brown;
+}
