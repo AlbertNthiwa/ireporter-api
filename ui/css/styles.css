@@ -2,10 +2,7 @@ h1{
     font-size: 50px;
     font-weight: 500;
 }
-#login-page{
-    background-image: url(../img/dashboard.jpg);
-}
-#registration-page{
+.dash{
     background-image: url(../img/dashboard.jpg);
 }
 .sign-in input{
@@ -186,17 +183,15 @@ footer{
     border-radius: 100%;
     display: inline-block;
     margin-top: 180px;
-    margin-left: 270px;
+    margin-left: 200px;
     padding: 0.5em;
+    float: center;
 }
 .avatar img {
       border-radius: 100%;
       display: block;
       float: center;
       width: 10em;
-}
-#profile-page{
-    background-image: url(../img/dashboard.jpg);
 }
 .name {
 	font-size: 30px;
@@ -234,4 +229,43 @@ span {
 }
 .btn2:hover{
     color:lightgreen;
+}
+
+/* Red Flag */
+
+.red-flag{
+    background:white;
+    width:400px;
+    height: 660px;
+    border-radius:6px;
+    margin-top:100px;
+    margin-right:75px;
+    margin-left: 520px;
+    border: red 5px solid;
+    float: center;
+    color:lightcoral;
+}
+.red-flag input{
+    margin: 15px 15px 15px 15px;
+}
+.red-flag textarea{
+    margin: 15px 15px 15px 15px;
+}
+.intervention{
+    background:white;
+    width:400px;
+    height: 720px;
+    border-radius:6px;
+    margin-top:75px;
+    margin-right:75px;
+    margin-left: 520px;
+    border: red 5px solid;
+    float: center;
+    color:lightcoral;
+}
+.intervention input{
+    margin: 15px 15px 15px 15px;
+}
+.intervention textarea{
+    margin: 15px 15px 15px 15px;
 }
