@@ -10,24 +10,45 @@
     <a href="home.html"><img src="img/logo.png" id="logo"></a>
       <ul class="nav-bar">
           <li><a href="#" id="logoutbtn">sign-out</a></li>
-          <li><a href="#">Dashboard</a></li>
-          <li><a href="#">Feed</a></li>
           <li><a href="#">Settings</a></li>
+
+          <div class="dropdown">
+            <button class="dropbtn">View Records</button>
+            <div class="dropdown-content">
+              <a href="#">All Records</a>
+              <a href="#">Resolved Records</a>
+              <a href="#">Pending Records</a>
+              <a href="#">Rejected Records</a>
+            </div>
+          </div> 
+          <li><a href="#">Feed</a></li>
       </ul>
 
       <div class="profile">
-			<div class="image">
-				<span class="avatar"><img src="img/user-default.png"/></span>
-			</div>
-			
-			<div class="name">Albert Nthiwa</div>
-			<div class="username">@eyewitness</div>
-			
+        <span class="avatar"><img src="img/user-default.png"/></span>
+        <div id="name">Albert Nthiwa</div>
+        <div id="username">@eyewitness</div>
+      </div>
+      
 			<div class="actions">
 				<a href="redflag.html"><button class="btn2">Create Red-Flag</button></a>
-                <a href="intervention.html"><button class="btn2">Create Intervention</button></a>
-                <a><button class="btn2">View My Records</button></a>
-			</div>
+        <a href="intervention.html"><button class="btn2">Create Intervention</button></a>
+      </div>
+
+      <table>
+        <tr id="thead">
+            <th>Record Type: </th>
+            <th>Description: </th>
+            <th>Status: </th>
+            <th>Action: </th>
+        </tr>
+        <tr id="table item">             
+        <td> </td>
+        <td> </td>
+        <td> </td>
+        <td><button id="edit">Edit</button><button id="delete">Delete</button></td>
+        </tr>       
+      </table>
 		</div>
 
   </body>
