@@ -8,12 +8,6 @@ Corruption is a huge bane to Africa’s development. African countries must deve
 * Interventions
 * Geolocation
 
-### Link to site:
-* https://albertnthiwa.github.io/ireporter-api/
-
 ### Collaborations:
 * Git & Git Hub
 * Pivotaltracker
-
-### Owner contact details:
-* albertnthiwa@gmail.com
